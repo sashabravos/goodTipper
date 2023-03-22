@@ -14,8 +14,6 @@
 		0310C79A29B39207005DDC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0310C79829B39207005DDC99 /* LaunchScreen.storyboard */; };
 		03289D6029B558C60036C5C4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03289D5F29B558C60036C5C4 /* ResultViewController.swift */; };
 		03289D6829B7A05F0036C5C4 /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03289D6729B7A05F0036C5C4 /* UIViews.swift */; };
-		035BCF8129C21E3F00C6C347 /* CaculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BCF8029C21E3F00C6C347 /* CaculateView.swift */; };
-		035BCF8329C21E4F00C6C347 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BCF8229C21E4F00C6C347 /* ResultView.swift */; };
 		B63432101521A762D7BD69A8 /* Pods_goodTipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748D1F1014C83DC9279B328A /* Pods_goodTipper.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +39,6 @@
 		0310C79B29B39207005DDC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03289D5F29B558C60036C5C4 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		03289D6729B7A05F0036C5C4 /* UIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
-		035BCF8029C21E3F00C6C347 /* CaculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculateView.swift; sourceTree = "<group>"; };
-		035BCF8229C21E4F00C6C347 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		3F96132B7439E926DADE987C /* Pods-goodTipper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodTipper.release.xcconfig"; path = "Target Support Files/Pods-goodTipper/Pods-goodTipper.release.xcconfig"; sourceTree = "<group>"; };
 		748D1F1014C83DC9279B328A /* Pods_goodTipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goodTipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A7537BE47565DD311411D9 /* Pods-goodTipper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodTipper.debug.xcconfig"; path = "Target Support Files/Pods-goodTipper/Pods-goodTipper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +89,6 @@
 		0310C7A329B3949F005DDC99 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				03289D6729B7A05F0036C5C4 /* UIViews.swift */,
 				0310C79129B39207005DDC99 /* CalculateViewController.swift */,
 				03289D5F29B558C60036C5C4 /* ResultViewController.swift */,
 			);
@@ -105,8 +100,7 @@
 			children = (
 				0310C79829B39207005DDC99 /* LaunchScreen.storyboard */,
 				0310C79629B39207005DDC99 /* Assets.xcassets */,
-				035BCF8029C21E3F00C6C347 /* CaculateView.swift */,
-				035BCF8229C21E4F00C6C347 /* ResultView.swift */,
+				03289D6729B7A05F0036C5C4 /* UIViews.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -246,8 +240,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0310C79229B39207005DDC99 /* CalculateViewController.swift in Sources */,
-				035BCF8329C21E4F00C6C347 /* ResultView.swift in Sources */,
-				035BCF8129C21E3F00C6C347 /* CaculateView.swift in Sources */,
 				0310C78E29B39207005DDC99 /* AppDelegate.swift in Sources */,
 				03289D6029B558C60036C5C4 /* ResultViewController.swift in Sources */,
 				03289D6829B7A05F0036C5C4 /* UIViews.swift in Sources */,

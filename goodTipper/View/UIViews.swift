@@ -102,7 +102,7 @@ final class MyView: UIView {
         static let resultLabelFontSize: CGFloat = 45.0
         static let textFieldFontSize: CGFloat = 40.0
         static let verticalSVSpacing: CGFloat = 26.0
-        static let tipSVspacing: CGFloat = 50.0
-        static let splitSVspacing: CGFloat = 27.0
+        static let tipSVSpacing: CGFloat = 50.0
+        static let splitSVSpacing: CGFloat = 27.0
     }
 }
